@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    background: url('banner.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: gray;
+    background-blend-mode: multiply;
+    opacity: .85;
+    text-align: center;
+}
+
+header .wrapper-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header .wrapper-center h1 {
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-shadow: 0 4px 0px black;
+    margin-bottom: 40px;
+}
+
+header .wrapper-center img {
+    border-radius: 50%;
+    border: 7px solid white;
+    box-shadow: 0 28px 26px  0 rgba(0, 0, 0, .7);
+    width: 60%;
+    transition: transform .5s ease-out;
+}
+
+header .wrapper-center ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header .wrapper-center ul li a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-shadow: 0 4px 0px black;
+    margin-bottom: 40px;
+}
+
+header .wrapper-center ul li a:hover{
+    border-bottom: 5px solid white;
+}
